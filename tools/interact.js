@@ -8,7 +8,7 @@ const warp = WarpFactory.forMainnet()
 
 const wallet = await warp.arweave.wallets.generate();
 const tags = [
-  { name: "Contract-Label", value: "M3ters" },
+  { name: "Contract-Label", value: "ImpactScribe" },
   { name: "Contract-Use", value: "M3tering Protocol" },
   { name: "Content-Type", value: "application/json" },
 ];

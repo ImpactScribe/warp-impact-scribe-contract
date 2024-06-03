@@ -26,8 +26,7 @@ declare global {
   }
 
   interface State {
-    is_on: boolean;
-    kwh_balance: number;
+    total_kwh: number;
     last_block: number;
     nonce: number;
     public_key: string;
